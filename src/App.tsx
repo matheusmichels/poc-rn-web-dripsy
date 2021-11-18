@@ -13,7 +13,7 @@ import { ThemeProvider } from './theme';
 function App() {
   let [fontsLoaded] = useFonts({
     'Inter-Light': Inter_300Light,
-    'Inter-Regular': Inter_400Regular,
+    Inter: Inter_400Regular,
     'Inter-Bold': Inter_700Bold,
   });
 

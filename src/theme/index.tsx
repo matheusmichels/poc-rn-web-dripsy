@@ -4,9 +4,9 @@ import { DripsyProvider, makeTheme } from 'dripsy';
 const theme = makeTheme({
   customFonts: {
     Inter: {
-      bold: 'Inter-Bold',
-      normal: 'Inter-Regular',
       lighter: 'Inter-Light',
+      normal: 'Inter',
+      bold: 'Inter-Bold',
     },
   },
   fonts: {
