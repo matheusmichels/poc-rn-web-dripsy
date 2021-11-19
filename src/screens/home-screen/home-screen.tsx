@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from '@react-navigation/native';
 import { MotiText } from '@motify/components';
 
