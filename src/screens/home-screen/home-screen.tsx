@@ -1,7 +1,7 @@
 import { Link } from '@react-navigation/native';
-import { MotiText } from '@motify/components';
+import { MotiText } from 'moti';
 
-import { Container, Title } from './home-screen.styles';
+import { Container, styles, Title } from './home-screen.styles';
 
 export function HomeScreen() {
   return (
@@ -12,7 +12,7 @@ export function HomeScreen() {
         from={{ opacity: 0, scale: 1 }}
         animate={{ opacity: 1, scale: 1.5 }}
         transition={{ duration: 500, loop: true, type: 'timing' }}
-        style={{ marginVertical: 10 }}
+        style={styles.animatedText}
       >
         Welcome
       </MotiText>

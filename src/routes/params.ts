@@ -1,4 +1,4 @@
 export type BaseRootParamList = {
-  Home: {};
-  Config: {};
+  Home: Record<string, unknown>;
+  Config: Record<string, unknown>;
 };

@@ -1,4 +1,6 @@
 import { ActivityIndicator } from 'react-native';
+
+/* eslint-disable camelcase */
 import {
   useFonts,
   Inter_400Regular,
@@ -10,7 +12,8 @@ import { Routes } from './routes';
 import { ThemeProvider } from './theme';
 
 function App() {
-  let [fontsLoaded] = useFonts({
+  /* eslint-disable camelcase */
+  const [fontsLoaded] = useFonts({
     'Inter-Light': Inter_300Light,
     Inter: Inter_400Regular,
     'Inter-Bold': Inter_700Bold,
