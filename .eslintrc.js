@@ -45,7 +45,14 @@ module.exports = {
     'import/extensions': ['error', 'ignorePackages', { ts: 'never', tsx: 'never' }],
     'import/no-extraneous-dependencies': [
       'error',
-      { devDependencies: ['jest.setup.js', './src/testing/**', '**/*.test.ts?(x)'] },
+      {
+        devDependencies: [
+          'jest.setup.js',
+          './src/testing/**.ts?(x)',
+          '**/*.spec.ts?(x)',
+          'webpack.config.js',
+        ],
+      },
     ],
     'import-helpers/order-imports': [
       'warn',

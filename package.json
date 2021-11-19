@@ -7,7 +7,8 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "lint": "eslint src --ext ts,tsx"
+    "lint": "eslint src --ext ts,tsx",
+    "test": "jest"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.0",
@@ -32,10 +33,14 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@expo/webpack-config": "^0.16.7",
+    "@testing-library/jest-native": "^4.0.4",
+    "@testing-library/react-native": "^8.0.0",
+    "@types/jest": "^27.0.3",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
+    "babel-jest": "^27.3.1",
     "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -49,6 +54,8 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-react-native": "^3.11.0",
     "eslint-plugin-testing-library": "^5.0.0",
+    "jest": "^27.3.1",
+    "jest-expo": "^43.0.1",
     "prettier": "^2.4.1",
     "typescript": "~4.3.5"
   },
