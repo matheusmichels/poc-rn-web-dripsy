@@ -7,6 +7,7 @@ export const Container = styled(View)({
 });
 
 export const Title = styled(Text)({
-  color: ['green', 'blue', 'red'],
-  fontWeight: ['lighter', 'normal', 'bold'],
+  color: 'textPrimary',
+  fontWeight: ['light', 'normal', 'bold'],
+  fontSize: [16, 20, 24],
 });
